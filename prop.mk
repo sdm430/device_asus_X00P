@@ -157,6 +157,7 @@ ro.vendor.qti.va_odm.support=1
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
     rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
+    persist.radio.aosp_usr_pref_sel=true \
     persist.radio.multisim.config=dsds \
     ro.telephony.default_network=9,1 \
     ro.telephony.call_ring.multiple=false \
